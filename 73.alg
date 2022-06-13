@@ -1,0 +1,25 @@
+algoritmo "Exercício10"
+// Função :
+// Autor :
+// Data : 22/06/2021
+// Seção de Declarações 
+var
+NUMERO,CONTADOR,RESTO,INDICADOR : INTEIRO
+inicio
+// Seção de Comandos 
+INDICADOR <- 0
+ESCREVAL("ENTRE COM O NÚMERO :")
+LEIA (NUMERO)
+PARA CONTADOR DE 2 ATE (NUMERO-1) FACA
+RESTO = (NUMERO MOD CONTADOR)
+SE(RESTO = 0) ENTAO
+INDICADOR <-1
+FIMSE
+FIMPARA
+SE(INDICADOR == 0)
+ESCREVAL ("O NÚMERO ", NUMERO, " É PRIMO.")
+SENAO
+ESCREVAL ("O NÚMERO ", NUMERO, " NÃO É PRIMO.")
+FIMSE
+
+fimalgoritmo
